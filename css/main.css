@@ -149,3 +149,33 @@ svg,path,span{
     border: 1px solid #dadce0;
     color: #202124;
 }
+
+/*Footer styles*/
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+    min-width: 400px;
+    font-size: 14px;
+    line-height: 40px;
+}
+#footer a{
+    color: #70757a;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 27px;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+.privacy{
+    float:right;
+    margin-right: 30px;
+}
+.services{
+    float: left;
+}
