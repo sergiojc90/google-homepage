@@ -90,7 +90,6 @@ a.login{
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
 }
-}
 #search-text{
     display: flex;
     flex: 100%;
@@ -109,5 +108,14 @@ a.login{
     font-size: 16px;
 }
 #search-icon{
-    background-color: blue;
+    display: block;
+    height: 24px;
+    width: 24px;
+    color: #9aa0a6;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+svg,path,span{
+    color: #9aa0a6;
+    fill: currentColor;
 }
