@@ -3,7 +3,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: arian,sans-serif;
+    font-family: Arial, sans-serif;
 
     }
 main{
@@ -62,13 +62,15 @@ a.login{
     text-align: left;
     white-space: nowrap;
     margin-right: 15px;
-    margin: auto 15px auto 15px;
+    margin: auto 30px auto 15px;
 }
 .google-logo{
     width: auto;
     padding-top: 100px;
     transition: padding-top 0.4s ease, width 0.4s ease, height 0.4s ease;
 }
+
+/*Search bar styles*/
 #section{
     display: block;
     text-align: center;
@@ -118,4 +120,32 @@ a.login{
 svg,path,span{
     color: #9aa0a6;
     fill: currentColor;
+}
+
+/* Buttons below search bar*/
+.search-btn{
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
