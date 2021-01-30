@@ -3,4 +3,64 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: arian,sans-serif;
+
     }
+main{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#header{
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+a.gmail, a.images, a.googleapps, a.login{
+    padding-right: 15px;
+}
+a.googleapps{
+    background-position: -132px -38px;
+    opacity: .55;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    white-space: nowrap;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    line-height: normal;
+    text-align: left;
+    font-size: 13px;
+}
+a.login{
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    outline: none;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 15px;
+    margin: auto 15px auto 15px;
+}
